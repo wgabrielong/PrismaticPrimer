@@ -11,6 +11,7 @@
 *.cb
 *.cb2
 .*.lb
+A_Prismatic_Primer.tex
 
 ## Intermediate documents:
 *.dvi
