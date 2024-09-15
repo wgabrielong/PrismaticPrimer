@@ -11,6 +11,9 @@
 \usepackage{xcolor}
 \usepackage{color}
 \usepackage{euscript}
+\usepackage[bbgreekl]{mathbbol}
+\DeclareSymbolFontAlphabet{\mathbb}{AMSb} % to ensure \mathbb does not change
+\DeclareSymbolFontAlphabet{\mathbbl}{bbold}
 \input{shortcuts.tex}
 \setlength{\headheight}{40pt}
 
@@ -49,9 +52,17 @@
 \urladdr{https://wgabrielong.github.io/}
 \maketitle
 \section*{Preliminaries}
-
+This document seeks to give a primer on the theory of prismatic cohomology first developed in Bhatt-Scholze's seminal article \cite{BSPrismatic} based primarily on the lecture course of G. Bosco at the Universit\"{a}t Bonn in the Summer 2024 semester \cite{Bosco} and of J. Ansch\"{u}tz at the Recent Advances in Algebraic K-Theory conference at the I'HES in Summer 2023 \cite{Anschutz}. In particular, no claims to completeness of proofs -- if at all given -- are made. 
 \tableofcontents
 \newpage
+\include{Motivations}
+\include{p-adic Hodge Theory}
+\include{Witt Vectors and Deformation Theory}
+\include{Delta Rings}
+\include{Prisms}
+\include{Perfectoid Rings}
+\include{Prismatic Cohomology}
+\include{Comparisons}
 \part*{End Matter}
 \printbibliography
 \end{document}
