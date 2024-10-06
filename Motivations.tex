@@ -2,9 +2,9 @@
 Let $X$ be a scheme smooth and proper over $\ZZ$. We can consider cohomology theories for schemes in characteristic $p$ and coefficients in $\ZZ_{\ell}$: 
 \begin{itemize}
     \item Singular cohomology, the cohomology on the underlying topological space of complex points $X(\CC)$. 
-    \item de Rahm cohomology, the sheaf cohomology of the sheaf of (completed) differentials on $X$. 
+    \item de Rham cohomology, the sheaf cohomology of the sheaf of (completed) differentials on $X$. 
     \begin{itemize}
-        \item In the characteristic 0 setting over $\CC$, de Rahm cohomology agrees with singular cohomology due to results of Grothendieck and Serre giving an isomorphism 
+        \item In the characteristic 0 setting over $\CC$, de Rham cohomology agrees with singular cohomology due to results of Grothendieck and Serre giving an isomorphism 
         $$H_{\dR}^{i}(X)=H^{i}(X,\ZZ)\otimes_{\ZZ}\CC$$
         giving rise to Hodge theory and Hodge cohomology. 
     \end{itemize}
@@ -189,7 +189,7 @@ These cohomology theories fit together in the following diagram.
             \end{minipage}};
             % Text Node
             \draw (430,130) node  [font=\footnotesize] [align=left] {\begin{minipage}[lt]{81.6pt}\setlength\topsep{0pt}
-            {\tiny de Rahm Cohomology}\\{\tiny $H^{i}_{\dR}(X)$}
+            {\tiny de Rham Cohomology}\\{\tiny $H^{i}_{\dR}(X)$}
             \end{minipage}};
             % Text Node
             \draw (490,150) node  [font=\footnotesize] [align=left] {\begin{minipage}[lt]{81.6pt}\setlength\topsep{0pt}
@@ -203,7 +203,7 @@ These cohomology theories fit together in the following diagram.
 \end{figure}
 
 
-For a scheme $X_{\FF_{p}}$ over $\FF_{p}$ we want to consider cohomology theories with coefficients in $\ZZ_{p}$. In this setting, \'{e}tale cohomology is not defined due to\todo{fill this in.}
+For a scheme $X_{\FF_{p}}$ over $\FF_{p}$ we want to consider cohomology theories with coefficients in $\ZZ_{p}$. In this setting, \'{e}tale cohomology is not defined due to the poor behavior of $p$th roots of unity in characteristic $p$. In particular, the Kummer sequence, key to defining \'{e}tale cohomology is no longer exact. 
 \begin{figure}[H]\label{fig: cohomology at p}
     \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
@@ -380,7 +380,7 @@ For a scheme $X_{\FF_{p}}$ over $\FF_{p}$ we want to consider cohomology theorie
     \end{minipage}};
     % Text Node
     \draw (490,120) node  [font=\footnotesize] [align=left] {\begin{minipage}[lt]{81.6pt}\setlength\topsep{0pt}
-    {\tiny de Rahm Cohomology}\\{\tiny $H_{\dR}^{i}(X)$}
+    {\tiny de Rham Cohomology}\\{\tiny $H_{\dR}^{i}(X)$}
     \end{minipage}};
     % Text Node
     \draw (490,180) node  [font=\footnotesize] [align=left] {\begin{minipage}[lt]{81.6pt}\setlength\topsep{0pt}
@@ -404,7 +404,7 @@ For a scheme $X_{\FF_{p}}$ over $\FF_{p}$ we want to consider cohomology theorie
 
     \end{tikzpicture}
 
-    \caption{Cohomology with coefficients in $\ZZ_{p}$.}
+    \caption{Cohomology of $\FF_{p}$-schemes with coefficients in $\ZZ_{p}$.}
 \end{figure}
 
 Prismatic cohomology seeks to provide a cohomology theory that incorporates data from the various cohomology theories at the $(p,p)$-point. 
@@ -590,7 +590,7 @@ Prismatic cohomology seeks to provide a cohomology theory that incorporates data
     \end{minipage}};
     % Text Node
     \draw (490,120) node  [font=\footnotesize] [align=left] {\begin{minipage}[lt]{81.6pt}\setlength\topsep{0pt}
-    {\tiny de Rahm Cohomology}\\{\tiny $H^{i}_{\dR}(X)$}
+    {\tiny de Rham Cohomology}\\{\tiny $H^{i}_{\dR}(X)$}
     \end{minipage}};
     % Text Node
     \draw (490,180) node  [font=\footnotesize] [align=left] {\begin{minipage}[lt]{81.6pt}\setlength\topsep{0pt}
@@ -617,7 +617,7 @@ Prismatic cohomology seeks to provide a cohomology theory that incorporates data
 
 
     \end{tikzpicture}
-    \caption{Prismatic cohomology at $p$.}
+    \caption{Prismatic cohomology at $(p,p)$.}
 \end{figure}
 
 Prismatic cohomology can be thought of as a prism, refracting the beam of light into the various cohomology theories for formal schemes over $\ZZ_{p}$. 
@@ -654,7 +654,7 @@ Prismatic cohomology can be thought of as a prism, refracting the beam of light 
             \end{minipage}};
             % Text Node
             \draw (610,110) node   [align=left] {\begin{minipage}[lt]{122.4pt}\setlength\topsep{0pt}
-            {\footnotesize de Rahm Cohomology}
+            {\footnotesize de Rham Cohomology}
             \end{minipage}};
             % Text Node
             \draw (610,150) node   [align=left] {\begin{minipage}[lt]{122.4pt}\setlength\topsep{0pt}
